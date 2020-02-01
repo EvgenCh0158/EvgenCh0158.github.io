@@ -26,7 +26,7 @@ p {
 }
 
 .header__inner {
-	padding-left: 120px;
+	/*padding-left: 120px;*/
 }
 
 .header__inner div  {
@@ -88,7 +88,6 @@ p {
 	font-size: 12px;
 	color: #515862;
 }
-
 
 /*Intro*/
 
@@ -157,7 +156,7 @@ p {
 
 .btn--blue {
 	background: #2190C1;
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: normal;
 	border-radius: 3px;
 	padding: 3px 8px;
@@ -171,7 +170,13 @@ p {
 	color: #CCCECE;
 }
 
+.btn--form {
+	width: 80px;
+	height: 25px;
+}
+
 /*slider*/
+
 .slider_dots {
 	padding-right: 95px;
 	right: 0;
@@ -181,7 +186,7 @@ p {
 .slider_dots ul {
 	display: flex;
 	justify-content: flex-end;
-    padding: 0 0 15px;
+	padding: 0 0 15px;
 	margin: 0;
 }
 
@@ -192,14 +197,14 @@ p {
 
 .slider_dots button {
 	display: block;
-    width: 15px;
-    height: 15px;
-    background: #8C9494;
-    border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	background: #8C9494;
+	border-radius: 50%;
 	border: 0;
   	opacity: 1;
-    padding: 0;
-    cursor: pointer;
+   	padding: 0;
+   	cursor: pointer;
    	color: transparent;
 }
 
@@ -217,7 +222,7 @@ p {
 
 .service {
 	display: flex;
-	padding: 50px 35px 40px;
+	padding: 25px 35px 40px;
 	flex-wrap: wrap;
 	
 }
@@ -241,7 +246,7 @@ p {
 }
 
 .service__icon {
-	margin-bottom: 25px;
+	margin: 25px 0;
 }
 
 .service__title {
@@ -264,7 +269,7 @@ p {
 }
 
 .portfolio {
-	padding-top: 50px;
+	padding: 50px 0 70px;
 }
 
 .digit {
@@ -275,19 +280,16 @@ p {
 
 .portfolio_header{
 	display: flex;
-    justify-content: space-between;
+    	justify-content: space-between;
 	align-items: center;
-    padding: 0 65px;
+    	padding: 0 65px;
+	padding-bottom: 50px;
 }
 
 .portfolio h2 {
 	font-family: 'Bree Serif', serif;
 	font-size: 30px;
 	color: #f98561;
-}
-
-.portfolio__item {
-    padding: 50px 0;
 }
 
 .portfolio__img{
@@ -298,17 +300,16 @@ p {
 .portfolio__icon {
 	position: absolute;
 	left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
 }
 
 .portfolio__text {
 	display: inline-block;
 	text-align: left;
-   
-    width: 280px;
+    	width: 280px;
 }
 
 .portfolio__text h5 {
@@ -332,9 +333,8 @@ p {
 }
 
 .offer {
-	padding: 15px 0 30px;
 	border-bottom: 2px solid #D9D9D9;
-	margin: 0 60px;
+
 }
 
 .offer__header {
@@ -346,7 +346,7 @@ p {
 	text-transform: uppercase;
 	font-size: 40px;
 	color: #2190C1;
-	padding: 10px 0;
+	padding: 30px 0 10px;
 }
 
 .offer__description {
@@ -365,12 +365,12 @@ p {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 11px;
 	color: #515862;
+	padding-bottom: 10px;
 }
 
 .offer__item {
 	 width: 200px;
 }
-
 
 /*testimonials*/
 
@@ -394,12 +394,12 @@ p {
 }
 
 .profession__position {
-    display: block;
-    text-align: center;
+    	display: block;
+    	text-align: center;
 	color: #F98561;
 	padding-top: 50px;
-    height: 50px;
-    font-size: 0;
+    	height: 50px;
+    	font-size: 0;
 }
 
 /* testimonials */
@@ -415,10 +415,10 @@ p {
 }
 
 .people__img1, .people__img2, .people__img3 {
-    display: inline-block;
-    padding-bottom: 10px;
+   	display: inline-block;
+    	padding-bottom: 10px;
 	position: relative;
-    border-bottom: 6px solid #C1C1C1;
+    	border-bottom: 6px solid #C1C1C1;
 }
 
 .people__img2 {
@@ -426,23 +426,25 @@ p {
 }
 
 .people__img1:hover::after, .people__img2:hover::after, .people__img3:hover::after  {
-    content: "";
+    	content: "";
 	height: 10px;
-    padding-bottom: 10px;
-    width: 67px;
+    	padding-bottom: 10px;
+    	width: 67px;
 	background: url(../img/border_active.png) center no-repeat;
-    position: absolute;
-    right: 0px;
-    top: 75px;
-    z-index: 0;
+    	position: absolute;
+   	right: 0px;
+   	top: 75px;
+    	z-index: 0;
 }
-
 
 /* footer */
 
-
 .footer {
-	padding: 30px 0;
+	padding: 30px 30px 30px 0;
+}
+
+.footer  a {
+	color: #2190C1;
 }
 
 .footer__title {
@@ -456,20 +458,209 @@ p {
 .footer__item p {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 12px;
+	line-height: 1.7;
 	color: #a3afb2;
 }
 
+.footer__item {
+	display: block;
+	border-bottom: 1px solid #556270;
+	padding: 10px 0;
+}
 
+.footer h4 {
+	display: inline-block;
+	padding-top: 20px;
+}
 
+.footer__item:last-of-type, .contact .footer__item {
+	border-bottom: none;
+}
 
+label[for="validationCustom01"] {
+	color: #2190C1;
+}
 
+.form-control {
+	height: 27px;
+}
 
+.recent__projects .footer__item {
+	display: flex;
+}
 
+.contact .footer__item {
+	display: flex;
+	font-size: 13px;
+	padding: 13px 0;
+}
 
+.contact p {
+	font-size: 13px;
+	line-height: 1.3;
+}
+	
+.twitter__feeds {
+	display: block;
+}
 
+.recent__projects__text {
+	padding-left: 15px;
+}
 
+.contact__text {
+	padding-left: 10px;
+}
 
+/*Burger*/
+.burger {
+	display: none;
+}
 
+/* media */
 
+@media (max-width: 1200px) {
+	
+.header__inner {
+    	padding-left: 0;
+}
+}
 
+@media (max-width: 991px) {
 
+.logo__links a {
+    	padding: 2px 15px;
+}
+	
+.slider_dots {
+    	padding-right: 0;
+}
+	
+.portfolio__item {
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	padding: 0;
+}
+	
+.portfolio__text {
+	padding-left: 25px;
+	}	
+	
+.portfolio__text h5 {
+	font-size: 23px;
+	padding: 0;
+	}
+	
+.portfolio__text p {
+	font-size: 16px;
+	}
+	
+.offer {
+    	padding: 40px;
+}
+
+.offer__item {
+    	width: 100%;
+}
+	
+.footer {
+	padding: 30px 0;
+}	
+}
+
+@media (max-width: 767px) {
+	
+.header {
+    	height: 100%;
+}
+	
+.logo__links {
+	display: none;
+	width: 100%;
+	flex-direction: column;
+	border-top: 3px solid #7C7C7C;
+	text-align: center;
+	background-color: #fff;
+	right: 0;
+}
+	
+.logo__links.show {
+	display: flex;
+}	
+	
+.nav__link {
+	padding: 9px 15px;
+	margin-left: 20px;
+}
+	
+	/*Burger*/
+.burger {
+	display: block;
+	padding: 9px 2px;
+	background: none;
+	border: 0;
+	cursor: pointer;
+}
+	
+.burger__item {
+	display: block;
+	width: 30px;
+	height: 3px;
+	background-color: #7D7D7D;
+	font-size: 0;
+	color: transparent;
+	position: relative;
+}
+	
+.burger__item:before, 
+.burger__item:after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #7D7D7D;
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+	
+.burger__item:before {
+	top: -8px;
+} 
+.burger__item:after {
+	bottom: -8px;
+}
+
+.portfolio_header {
+    	padding: 0 0 50px 0;
+}
+}
+
+@media (max-width: 575px) {
+	
+.slider_dots ul {
+	justify-content: center;
+	padding: 30px 0 80px;
+}
+	
+.footer {
+    	padding: 0;
+}
+
+.portfolio__item {
+    	display: block;
+ 	text-align: center;
+}
+	
+.portfolio__text {
+    padding: 20px 0;
+}
+	
+.offer__text {
+	padding-bottom: 0;
+}
+	
+.footer.col-7 {
+    	padding-left: 0 important;
+}	
+}
