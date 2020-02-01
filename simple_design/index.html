@@ -18,26 +18,29 @@
 	<header class="header">
 		<div class="container">
 			<div class="header__inner">
-				<div class="row p-0">
-					<div class="col-3 p-0">
+				<div class="row justify-content-center p-0">
+					<div class="col-5 col-md-3 col-lg-2 p-0">
 						<div class="logo__info">
-							<img src="../simple_design/assets/img/path_1.png" alt="">
+							<img src="../assets/img/path_1.png" alt="">
 							<h5>Your Logo</h5>
 						</div>
 					</div>
-					<nav class="col-7 logo__links">
+					<nav class="col-auto col-lg-6 order-5 order-md-3 logo__links" id="logo__links">
 						<a class="nav__link" href="#">Home</a>
 						<a class="nav__link" href="#">Portfolio</a>
 						<a class="nav__link" href="#">About</a>
 						<a class="nav__link" href="#">Contact</a>
 						<a class="nav__link" href="#">Blog</a>	
 					</nav>
-					<div class="col-2 p-0">
+					<div class="col-5 col-md-1 col-lg-1 p-0 order-4 order-md-4">
 						<div class="search__info">
 							<span>Search</span>
-							<img src="../simple_design/assets/img/search.png" alt="">
+							<img src="../assets/img/search.png" alt="">
 						</div>
 					</div>
+					<button class="burger order-4" type="button" id="navToggle">
+						<span class="burger__item">Menu</span>
+					</button>
 				</div>
 			</div>
 		</div>
@@ -81,10 +84,10 @@
 		<div class="container">
 			<div class="service">
 				<div class="row justify-content-center">
-					<div class="col-3 service__label">Our Services</div>
-					<div class="col-3">
+					<div class="col-5 col-sm-3 service__label">Our Services</div>
+					<div class="col-12 col-sm-6 col-lg-3">
 						<div class="service__item">
-							<img class="service__icon" src="../simple_design/assets/img/laptop_icon.png" alt="">
+							<img class="service__icon" src="../lesson_3/assets/img/laptop_icon.png" alt="">
 							<h4 class="service__title">Web Design</h4>
 							<div class="service__text">Lorem ipsum dolor sit amet, 
 							consectetur adipiscing elit. 
@@ -92,9 +95,9 @@
 							commodo suscipit. <span><a href="#">Details...</a></span></div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-12 col-sm-6 col-lg-3">
 						<div class="service__item">
-							<img class="service__icon" src="../simple_design/assets/img/search_icon.png" alt="">
+							<img class="service__icon" src="../lesson_3/assets/img/search_icon.png" alt="">
 							<h4 class="service__title">Search Optimization</h4>
 							<div class="service__text">Lorem ipsum dolor sit amet, 
 							consectetur adipiscing elit. 
@@ -102,9 +105,9 @@
 							commodo suscipit. <span><a href="#">Details...</a></span></div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-12 col-sm-6 col-lg-3">
 						<div class="service__item">
-							<img class="service__icon" src="../simple_design/assets/img/basket_icon.png" alt="">
+							<img class="service__icon" src="../lesson_3/assets/img/basket_icon.png" alt="">
 							<h4 class="service__title">Online Shop</h4>
 							<div class="service__text">Lorem ipsum dolor sit amet, 
 							consectetur adipiscing elit. 
@@ -112,9 +115,9 @@
 							commodo suscipit. <span><a href="#">Details...</a></span></div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-12 col-sm-6 col-lg-3">
 						<div class="service__item">
-							<img class="service__icon" src="../simple_design/assets/img/like_icon.png" alt="">
+							<img class="service__icon" src="../lesson_3/assets/img/like_icon.png" alt="">
 							<h4 class="service__title">Social Media</h4>
 							<div class="service__text">Lorem ipsum dolor sit amet, 
 							consectetur adipiscing elit. 
@@ -136,11 +139,11 @@
 					<a class="btn btn--blue" href="#">More Works</a>
 				</div>
 				<div class="row">	
-					<div class="col-4 digit">
-						<div class="portfolio__item text-right">
+					<div class="col-12 col-lg-4 digit text-right">
+						<div class="portfolio__item">
 							<div class="portfolio__img">
-								<img class="portfolio__photo" src="../simple_design/assets/img/picture_portfolio.png" alt="">
-								<img class="portfolio__icon" src="../simple_design/assets/img/camera_icon.png" alt="">
+								<img class="portfolio__photo" src="../lesson_3/assets/img/picture_portfolio.png" alt="">
+								<img class="portfolio__icon" src="../lesson_3/assets/img/camera_icon.png" alt="">
 							</div>
 							<div class="portfolio__text">
 								<h5>Lorem Ipsum Dolar Sit Amet</h5>
@@ -151,11 +154,11 @@
 						</div>
 					</div>
 						
-					<div class="col-4 digit">
-						<div class="portfolio__item text-center">
+					<div class="col-12 col-lg-4 digit text-center">
+						<div class="portfolio__item">
 							<div class="portfolio__img">
-								<img class="portfolio__photo" src="../simple_design/assets/img/picture_portfolio.png" alt="">
-								<img class="portfolio__icon" src="../simple_design/assets/img/camera_icon.png" alt="">
+								<img class="portfolio__photo" src="../lesson_3/assets/img/picture_portfolio.png" alt="">
+								<img class="portfolio__icon" src="../lesson_3/assets/img/camera_icon.png" alt="">
 							</div>
 							<div class="portfolio__text">
 								<h5>Lorem Ipsum</h5>
@@ -164,11 +167,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4 digit">
-						<div class="portfolio__item text-left">
+					<div class="col-12 col-lg-4 digit">
+						<div class="portfolio__item">
 							<div class="portfolio__img">
-									<img class="portfolio__photo" src="../simple_design/assets/img/picture_portfolio.png" alt="">
-									<img class="portfolio__icon" src="../simple_design/assets/img/camera_icon.png" alt="">
+									<img class="portfolio__photo" src="../lesson_3/assets/img/picture_portfolio.png" alt="">
+									<img class="portfolio__icon" src="../lesson_3/assets/img/camera_icon.png" alt="">
 							</div>
 							<div class="portfolio__text">
 								<h5>Lorem Ipsum Dolar Sit</h5>
@@ -194,9 +197,9 @@
 						<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
 					</div>
 				</div>
-				<div class="row justify-content-around pl-1 pr-5">
-					<div class="col-2">
-						<div class="offer__item">
+				<div class="row">
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="offer__item pb-4">
 							<h4 class="offer__subtitle">Web Design</h4>
 							<div class="offer__text">Lorem ipsum dolor sit amet, consect 
 							etur adipiscing elit. Ut ultricies sagit
@@ -206,16 +209,16 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-2">
-						<div class="offer__item">
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="offer__item pb-4">
 							<h4 class="offer__subtitle">Search Optimization</h4>
 							<div class="offer__text">Lorem ipsum dolor sit amet, consect 
 							etur adipiscing elit. Ut ultricies sagit
 							tism agnaa commodo. Ut eget eros mauris, ut cursus urna vestibuluman ipsum primis in faucibus  <span><a href="#">Details...</a></span></div>
 						</div>
 					</div>
-					<div class="col-2">
-						<div class="offer__item">
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="offer__item pb-4">
 							<h4 class="offer__subtitle">Online Shop</h4>
 							<div class="offer__text">Lorem ipsum dolor sit amet, consect 
 							etur adipiscing elit. Ut ultricies sagit
@@ -225,8 +228,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-2">
-						<div class="offer__item">
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="offer__item pb-4">
 							<h4 class="offer__subtitle">Social Media</h4>
 							<div class="offer__text">Lorem ipsum dolor sit amet, consect 
 							etur adipiscing elit. Ut ultricies sagit
@@ -237,6 +240,7 @@
 			</div>
 		</div>
 	</section> <!-- section offer -->
+	
 	
 	<!-- section testimonials -->
 	<div class="section__testimonials">
@@ -254,20 +258,20 @@
 					
 					<div class="testimonials__item text-center">
 						<div class="people__img1">
-							<img src="../simple_design/assets/img/people_1.png" alt="">
+							<img src="../lesson_3/assets/img/people_1.png" alt="">
 						</div>
 					</div>
 					
 					
 					<div class="testimonials__item text-center">
 						<div class="people__img2">
-							<img src="../simple_design/assets/img/people_2.png" alt="">
+							<img src="../lesson_3/assets/img/people_2.png" alt="">
 						</div>
 					</div>
 				
 					<div class="testimonials__item text-center">
 						<div class="people__img3">
-							<img src="../simple_design/assets/img/people_3.png" alt="">
+							<img src="../lesson_3/assets/img/people_3.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -279,87 +283,111 @@
 	<footer class="section__footer">
 		<div class="container">
 			<div class="footer">
-				<div class="row">
-					<div class="col-3">
+				<div class="row justify-content-center">
+					<div class="col-7 col-sm-6 col-lg-auto">
+						<h4 class="footer__title">Twitter Feeds</h4>
 						<div class="twitter__feeds">
-							<h4 class="footer__title">Twitter Feeds</h4>
 							<div class="footer__item">
 								<p class="feeds__text">Check out this great theme item</p>
 								<a href="#">http://tadjalskfj.com</a>
 								<p class="feeds__text">2 weeks ago</p>
 							</div>
 							<div class="footer__item">
-								<p class="feeds__text">Check out this great theme item</p>
+								<p class="feeds__text">Check out this great theme item for</p>
 								<a href="#">http://tadjalskfj.com</a>
 								<p class="feeds__text">2 weeks ago</p>
 							</div>
 							<div class="footer__item">
-								<p class="feeds__text">Check out this great theme item</p>
+								<p class="feeds__text">Check out this great theme item for you</p>
 								<a href="#">http://tadjalskfj.com</a>
 								<p class="feeds__text">2 weeks ago</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
-						<div class="newsletter">
-							<h4 class="footer__title">Newsletter</h4>
+					<div class="col-7 col-sm-6 col-lg-3">
+						<h4 class="footer__title">Newsletter</h4>
+						<div class="newsletter mr-2">
 							<div class="footer__item">
 								<p>Lorem ipsum dolor sit amet, consectetur adip
-								iscing elit. Ut ultricies sagittis magna a comm. 
-								Ut eget eros mauris, ut cursus urna.</p>
+								iscing elit. Ut ultricies sagittis magna a comm.
+								Ut eget eros mauris, ut cursus urna.
 							</div>
-							<div class="footer__item">
-								<form class="needs-validation" novalidate>
-									<div class="form-row">
+							<div class="footer__item text-right">
+								<form class="needs-validation pl-1" novalidate>
+									<div class="form-row pb-3 pr-1">
 										  <label for="validationCustom01">Your Email Address</label>
 										  <input type="text" class="form-control" id="validationCustom01" placeholder="" value="" required>
 										  <div class="valid-feedback">Looks good!</div>
 									</div>
-									<button class="btn btn--blue" type="submit">Sign Up</button>
+									<button class="btn btn--blue btn--form" type="submit">Sign Up</button>
 								</form>
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-7 col-sm-6 col-lg-3">
+						<h4 class="footer__title">Recent Projects</h4>
 						<div class="recent__projects">
-							<h4 class="footer__title">Recent Projects</h4>
 							<div class="footer__item">
-								<img src="../simple_design/assets/img/footer_img.png" alt="">
-								<p class="projects__text">Sketchy Business Card</p>
-								<a href="#">http://tadjalskfj.com</a>
-								<p class="projects__text">2 weeks ago</p>
+								<div class="recent__projects__img">
+									<img src="../lesson_3/assets/img/footer_img.png" alt="">
+								</div>
+								<div class="recent__projects__text">
+									<p class="projects__text">Sketchy Business Card</p>
+									<a href="#">http://tadjalskfj.com</a>
+									<p class="projects__text">2 weeks ago</p>
+								</div>
 							</div>
 							<div class="footer__item">
-								<img src="../simple_design/assets/img/footer_img.png" alt="">
-								<p class="projects__text">Sketchy Business Card</p>
-								<a href="#">http://tadjalskfj.com</a>
-								<p class="projects__text">2 weeks ago</p>
+								<div class="recent__projects__img">
+									<img src="../lesson_3/assets/img/footer_img.png" alt="">
+								</div>
+								<div class="recent__projects__text">
+									<p class="projects__text">Message Boards in Nature</p>
+									<a href="#">http://tadjalskfj.com</a>
+									<p class="projects__text">2 weeks ago</p>
+								</div>	
 							</div>
 							<div class="footer__item">
-								<img src="../simple_design/assets/img/footer_img.png" alt="">
-								<p class="projects__text">Sketchy Business Card</p>
-								<a href="#">http://tadjalskfj.com</a>
-								<p class="projects__text">2 weeks ago</p>
+								<div class="recent__projects__img">
+									<img src="../lesson_3/assets/img/footer_img.png" alt="">
+								</div>
+								<div class="recent__projects__text">
+									<p class="projects__text">Website Design Kit</p>
+									<a href="#">http://tadjalskfj.com</a>
+									<p class="projects__text">2 weeks ago</p>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-2">
+					<div class="col-7 col-sm-6 col-lg-auto">
+						<h4 class="footer__title">Contact</h4>
 						<div class="contact">
-							<h4 class="footer__title">Contact</h4>
 							<div class="footer__item">
-								<img src="../simple_design/assets/img/tube_icon.png" alt="">
-								<p class="projects__text">1 - 000 - 000-0000</p>
-								<p class="projects__text">1 - 000 - 000-0000</p>
+								<div class="contact__img">
+									<img src="../lesson_3/assets/img/tube_icon.png" alt="">
+								</div>
+								<div class="contact__text">
+									<p class="projects__text">1 - 000 - 000-0000</p>
+									<p class="projects__text">1 - 000 - 000-0000</p>
+								</div>
 							</div>
 							<div class="footer__item">
-								<img src="../simple_design/assets/img/mobile_icon.png" alt="">
-								<p class="projects__text">1 - 000 - 000-0000</p>
-								<p class="projects__text">1 - 000 - 000-0000</p>
+								<div class="contact__img">
+									<img src="../lesson_3/assets/img/mobile_icon.png" alt="">
+								</div>
+								<div class="contact__text">
+									<p class="projects__text">1 - 000 - 000-0000</p>
+									<p class="projects__text">1 - 000 - 000-0000</p>
+								</div>
 							</div>
 							<div class="footer__item">
-								<img src="../simple_design/assets/img/mail_icon.png" alt="">
-								<a href="#">abcdefg@hijs.dfh</a>
-								<a href="#">fjashfaf@jkfs.ckd</a>
+								<div class="contact__img pt-1">
+									<img src="../lesson_3/assets/img/mail_icon.png" alt="">
+								</div>
+								<div class="contact__text">
+									<p>abcdefg@hijs.dfh</p>
+									<p>fjashfaf@jkfs.ckd</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -368,6 +396,7 @@
 		</div>
 	</footer> <!-- section footer -->
 
-<script src="../simple_design/assets/js/main.js"></script>   
+
+<script src="../lesson_3/assets/js/main.js"></script>   
 </body>
 </html>
