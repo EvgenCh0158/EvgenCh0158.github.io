@@ -39,4 +39,16 @@ $(function() {
 		      fontSize: "0", // размер шрифта элемента 
 	    });   	
 	});
+	
+	//	navToggle
+	
+	let nav = $("#logo__links");
+	let navToggle = $("#navToggle");
+	
+	$("#navToggle").on("click", function(event){
+		event.preventDefault();
+		
+		nav.toggleClass("show");
+	});
+	
 });
