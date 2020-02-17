@@ -7,8 +7,8 @@ $userdata - данные заказчика
 */
 
 // При желании, можно посмотреть полученные данные, записав их в файл:
-// file_put_contents('cart_data_log.txt', var_export($orderlist, 1) . "\r\n");
-// file_put_contents('cart_data_log.txt', var_export($userdata, 1), FILE_APPEND);
+file_put_contents('cart_data_log.txt', var_export($orderlist, 1) . "\r\n");
+file_put_contents('cart_data_log.txt', var_export($userdata, 1), FILE_APPEND);
 
 
 // Заголовок письма
@@ -82,10 +82,10 @@ $response = [
 	'message' => $send_ok ? 'Заказ принят в обработку!' : 'Хьюстон! У нас проблемы!'
 ];
 // ! Для версий PHP < 5.4 использовать традиционный синтаксис инициализации массивов:
-/*
+
 $response = array (
 	'errors' => !$send_ok,
 	'message' => $send_ok ? 'Заказ принят в обработку!' : 'Хьюстон! У нас проблемы!'
 );
-*/
+
 exit( json_encode($response) );
