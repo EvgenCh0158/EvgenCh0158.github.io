@@ -14,7 +14,7 @@ $userdata - данные заказчика
 // Заголовок письма
 $subject = 'Заказ от '.date('d.m.Y').'г.';
 // ваш Email
-$admin_mail = 'admin@best-shop.piva.net';
+$admin_mail = 'chchermobay@gmail.com';
 // Email заказчика (как fallback - ваш же Email)
 $to = !empty($userdata['user_mail']) ? $userdata['user_mail'] : $admin_mail;
 
