@@ -77,10 +77,12 @@ $headers[] = 'X-Mailer: PHP/'.phpversion();
 $send_ok = mail($to, $subject, $body, implode("\r\n", $headers));
 
 // Ответ на запрос
+/*
 $response = [
 	'errors' => !$send_ok,
 	'message' => $send_ok ? 'Заказ принят в обработку!' : 'Хьюстон! У нас проблемы!'
 ];
+*/
 // ! Для версий PHP < 5.4 использовать традиционный синтаксис инициализации массивов:
 
 $response = array (
