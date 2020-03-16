@@ -183,16 +183,7 @@ $(document).ready(function() {
 		});
   	});
 	$(window).scroll(function() {
-		$('.theme').each(function(){
-		  var imagePos = $(this).offset().top;
-		  var topOfWindow = $(window).scrollTop();
-		  if (imagePos < topOfWindow+950) {
-			$(this).addClass('fadeInUp');
-		  }
-		});
-  	});
-	$(window).scroll(function() {
-		$('.question').each(function(){
+		$('.theme, .question').each(function(){
 		  var imagePos = $(this).offset().top;
 		  var topOfWindow = $(window).scrollTop();
 		  if (imagePos < topOfWindow+950) {
